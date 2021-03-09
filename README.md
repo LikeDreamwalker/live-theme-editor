@@ -14,7 +14,7 @@ MirrorLake 是 vuetify-theme-editor 的重构版本，在基于VTE的基础上�
 - 支持夜间模式
 - 完全开源
 
-vuetify有原生的主题编辑器，但是作为主题编辑器，其只提供了少量的颜色以及简单的预览效果，这无法满足部分用户的需求。在此基础上， vuetify-theme-editor 诞生了（https://github.com/LikeDreamwalker/vuetify-theme-editor）。但VTE并不是一个完美的框架，依然欠缺了部分核心的功能，同时面临一定的性能问题。
+vuetify有原生的主题编辑器，但是作为主题编辑器，其只提供了少量的颜色以及简单的预览效果，这无法满足部分用户的需求。在此基础上， vuetify-theme-editor 诞生了（ https://github.com/LikeDreamwalker/vuetify-theme-editor ）。但VTE并不是一个完美的框架，依然欠缺了部分核心的功能，同时面临一定的性能问题。
 
 在此基础上，我重构了VTE，并使用 MirrorLake 作为重构策略，重新设置了这个应用，以符合更多人的使用方式。
 
