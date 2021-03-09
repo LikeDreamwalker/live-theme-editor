@@ -177,7 +177,7 @@
               setDefaultTheme();
             "
           >
-            确认
+            好的
           </v-btn>
         </v-card-actions>
       </v-card>

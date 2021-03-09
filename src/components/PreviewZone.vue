@@ -75,6 +75,11 @@
                     ></v-card-title>
 
                     <v-card-subtitle v-text="item.artist"></v-card-subtitle>
+                    <v-card-actions>
+                      <v-btn v-if="item.btn" text :href="item.href">
+                        {{ item.btnText }}
+                      </v-btn>
+                    </v-card-actions>
                   </div>
 
                   <v-avatar class="ma-3" size="125" tile>
@@ -234,7 +239,10 @@ export default {
             "https://ldwid-1258491808.file.myqcloud.com/ldwid.com/Gallery/FSTO_blue_2020R.jpg/50p",
           title: "关于镜湖",
           artist:
-            "MirrorLake 是 vuetify-theme-editor 的重构版本，免费并开放源码"
+            "MirrorLake 是 vuetify-theme-editor 的重构版本，免费并开放源码",
+          btn: true,
+          href: "https://zhuanlan.zhihu.com/p/355716265",
+          btnText: "开发者解说：镜湖"
         },
         {
           color: "accent",
